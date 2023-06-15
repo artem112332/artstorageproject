@@ -1,0 +1,29 @@
+#Либы
+pip install django
+pip install pillow
+pip install django-widget-tweaks
+
+
+
+
+
+#Создание БД
+python manage.py makemigrations
+python manage.py migrate
+
+#   Можно создать админа (логин - admin, пароль - 1234) (можно поменять ниже)
+#   http://127.0.0.1:8000/admin   -    сайт админ-панели
+
+
+python manage.py createsuperuser
+
+admin
+admin@mail.ru
+1234
+1234
+y
+
+python manage.py runserver
+
+F8m-syq-dq8-dJp
+
